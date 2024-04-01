@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.app {
+  width: 300px;
+  margin: 2rem auto;
+  border: 3px solid black;
+  padding: .5rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: .5rem;
+}
+
+ul {
+  list-style: none;
+  margin-top: .5rem;
+}
+
+li {
+  margin-bottom: .5rem;
+  padding: 1rem;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+input {
+  padding: 1rem;
+  width: 100%;
+  margin-bottom: .5rem;
+}
+
+input:last-child {
+  margin-bottom: 0;
+}
+
+.counter {
+  display: flex;
+  margin-top: .5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.counter * {
+  flex: 3;
+  padding: 1rem;
+}
+
+.counter p {
+  flex: 1;
+}
