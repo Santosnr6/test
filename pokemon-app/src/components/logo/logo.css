@@ -1,0 +1,6 @@
+.logo {
+    background-color: var(--pokemon-blue);
+    color: var(--pokemon-yellow);
+    padding: 1rem;
+    border-radius: 50%;
+}

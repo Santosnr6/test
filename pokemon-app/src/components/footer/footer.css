@@ -1,0 +1,9 @@
+.page-footer {
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--pokemon-blue);
+}
+
+.page-footer > .navigation-list {
+    background-color: black;
+}

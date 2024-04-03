@@ -1,0 +1,22 @@
+.generator-form {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+}
+
+input {
+    padding: 1rem;
+}
+
+input[type=text] {
+    grid-column: auto / span 9;
+}
+
+input[type=number] {
+    grid-column: auto / span 3;
+}
+
+input[type=submit] {
+    grid-column: auto / span 12;
+}

@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --pokemon-yellow: #FFCC05;
+  --pokemon-blue: #1B53BA;
+  --pokemon-red: #E3350D;
+  --pokemon-red-darker: #b83416;
+}

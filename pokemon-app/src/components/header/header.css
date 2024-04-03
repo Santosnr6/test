@@ -1,0 +1,8 @@
+.page-header {
+    width: 100%;
+    background-color: var(--pokemon-red);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: flex-end;
+}
