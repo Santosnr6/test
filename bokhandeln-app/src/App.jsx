@@ -8,6 +8,24 @@ import ProductsPage from './pages/productsPage/ProductsPage';
 
 function App() {
 
+  /*
+  const addToCart = (book) => {
+  const bookIndex = cart.findIndex((b) => b.title === book.title);
+
+  if (bookIndex === -1) {
+    // Om boken inte finns i kundvagnen, lägg till en ny med kvantitet 1
+    setCart((c) => [...c, { ...book, quantity: 1 }]);
+  } else {
+    // Om boken redan finns i kundvagnen, öka kvantiteten med 1
+    setCart((c) =>
+      c.map((b, index) =>
+        index === bookIndex ? { ...b, quantity: b.quantity + 1 } : b
+      )
+    );
+  }
+};
+*/
+
   return (
     <div className="app">
       <Header />
