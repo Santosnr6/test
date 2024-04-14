@@ -1,0 +1,26 @@
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart-text,
+.clear-cart {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.cart-amount {
+    display: inline-block;
+    margin: 0 1rem;
+    background-color: white;
+    color: #201D3A;
+    width: 3rem;
+    padding: 1rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.clear-cart {
+    cursor: pointer;
+}
